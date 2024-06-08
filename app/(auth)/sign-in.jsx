@@ -51,11 +51,11 @@ const Signin = () => {
           <Image
             source={aoralogo}
             resizeMode="contain"
-            className="w-[115px] h-[34px]"
+            className="w-[100px]  h-[40px]"
           />
 
           <Text className="text-2xl font-semibold text-white mt-10 ">
-            Log in to Aora
+            Log in to Clip
           </Text>
 
           <FormField

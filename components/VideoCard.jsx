@@ -3,9 +3,9 @@ import { ResizeMode, Video } from "expo-av";
 import { View, Text, TouchableOpacity, Image } from "react-native";
 import playicon from '../assets/images/playicon.png'
 import option from '../assets/images/option.png'
-const VideoCard = ({ title, creator, avatar, thumbnail, video }) => {
+const VideoCard = ({ title, creator, avatar, thumbnail, video,user }) => {
   const [play, setPlay] = useState(false);
-    // console.log(video)
+    // console.log(user.users.accountid)
   return (
     <View className="flex flex-col items-center px-4 mb-14" key={video}>
       <View className="flex flex-row gap-3 items-start">
